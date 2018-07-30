@@ -1,4 +1,4 @@
-package com.sxli.rabbitmqhello;
+package com.sxli.rabbitmq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,15 +7,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = RabbitMqHelloApplication.class)
+@SpringBootTest(classes = DirectProducerApplication.class)
 public class RabbitMqHelloApplicationTests {
 
 	@Autowired
-	private Producer producer;
+	private Producer log;
 
 	@Test
 	public void contextLoads() {
-		producer.send("hello world");
+		log.info("用户进入系统");
+		log.error("系统出现异常");
 	}
-
 }

@@ -1,4 +1,4 @@
-package com.sxli.rabbitmqhello;
+package com.sxli.rabbitmq;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
