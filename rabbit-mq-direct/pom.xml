@@ -7,8 +7,8 @@
     <artifactId>rabbit-mq-direct</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>rabbit-mq-producer</module>
-        <module>rabbit-mq-consumer</module>
+        <module>rabbit-direct-producer</module>
+        <module>rabbit-direct-consumer</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -12,9 +12,6 @@ server:
 rabbitmq:
   config:
     exchange: log.direct
-    queue:
-      info: log.info
-      error: log.error
     routing:
       info: log.info.routing.key
       error: log.error.routing.key

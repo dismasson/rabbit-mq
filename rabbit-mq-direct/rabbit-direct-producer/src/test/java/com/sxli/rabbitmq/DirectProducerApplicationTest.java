@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = DirectProducerApplication.class)
-public class RabbitMqHelloApplicationTests {
+public class DirectProducerApplicationTest {
 
 	@Autowired
 	private Producer log;
