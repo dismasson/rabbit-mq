@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    addresses: 47.98.116.157
+    port: 5672
+    username: sxli
+    password: 123456
+  application:
+    name: rabbit-mq-dsrect-consumer
+server:
+  port: 8083
+
+rabbitmq:
+  config:
+    exchange: log.topic
