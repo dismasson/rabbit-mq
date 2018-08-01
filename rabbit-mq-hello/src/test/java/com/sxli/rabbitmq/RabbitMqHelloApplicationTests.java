@@ -16,6 +16,10 @@ public class RabbitMqHelloApplicationTests {
 	@Test
 	public void contextLoads() {
 		producer.send("hello world");
+		producer.send("hello world");
+		producer.send("hello world");
+		producer.send("hello world");
+		producer.send("hello world");
 	}
 
 }
