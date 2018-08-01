@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>rabbit-topic-producer</artifactId>
-    <name>rabbit-mq-producer</name>
+    <name>rabbit-topic-producer</name>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -5,15 +5,10 @@ spring:
     username: sxli
     password: 123456
   application:
-    name: rabbit-mq-dsrect-producer
+    name: rabbit-mq-fanout-producer
 server:
   port: 8082
 
 rabbitmq:
   config:
-    exchange: log.topic
-    routing:
-      info: order.log.info
-      error: order.log.error
-      debug: order.log.debug
-      warn: order.log.warn
+    exchange: order.fanout
