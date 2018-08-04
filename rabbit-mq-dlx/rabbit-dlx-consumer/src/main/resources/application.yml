@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    addresses: 47.98.116.157
+    port: 5672
+    username: sxli
+    password: 123456
+    listener:
+      simple:
+        default-requeue-rejected: true
+  application:
+    name: rabbit-mq-dlx-consumer
+server:
+  port: 8083
+
+rabbitmq:
+  config:
+    exchange: exchange.log
+    routing:
+      dlx:
+        main: routing.key.main
+        reserve: routing.key.reserve
