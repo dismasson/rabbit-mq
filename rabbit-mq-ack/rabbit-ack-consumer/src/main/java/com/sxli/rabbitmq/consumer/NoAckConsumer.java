@@ -1,6 +1,7 @@
 package com.sxli.rabbitmq.consumer;
 
 import org.springframework.amqp.core.ExchangeTypes;
+import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
